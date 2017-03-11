@@ -17,6 +17,7 @@ html {
 /* HEADER */
 header{
     height:100vh;
+    background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30)),url("hot-air-balloon-valley-sky-99551%20(1).jpeg");
     background-image:linear-gradient(rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30)),url("hot-air-balloon-valley-sky-99551%20(1).jpeg");
     background-size:cover;
     background-position:center top;
@@ -82,13 +83,13 @@ nav {
     color:#55acee;
 }
 .ion-social-facebook:hover{
-    color:#3b5998
+    color:#3b5998;
 }
 .ion-social-instagram:hover{
     color:#e95950;
 }
 .ion-social-pinterest:hover{
-    color:#cb2027
+    color:#cb2027;
 }
 .hero-text-box{
     clear:both;
@@ -127,6 +128,7 @@ h1{
     font-size:90%;
     font-weight:300;
     letter-spacing:0.5px;
+    -webkit-transition:background-color 0.5s;
     transition:background-color 0.5s;
     font-weight:300;
 }
