@@ -13,7 +13,6 @@ html {
     background-color:#fff;
     text-rendering:optimizeLegibility !important;
     overflow-x:hidden;
-    -webkit-font-smoothing: antialiased !important;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
 /* HEADER */
@@ -109,6 +108,7 @@ h1{
     margin-bottom:8px;
     color:#fff;
     font-weight:700;
+    font-kerning: normal;
 }
 .long-copy{
     width:50%;
