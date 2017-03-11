@@ -11,8 +11,10 @@ html {
     font-weight:300;
     color:#444;
     background-color:#fff;
-    text-rendering:optimizeLegibility;
+    text-rendering:optimizeLegibility !important;
     overflow-x:hidden;
+    -webkit-font-smoothing: antialiased !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
 /* HEADER */
 header{
@@ -113,8 +115,9 @@ h1{
     margin-bottom:25px;
     word-spacing:2px;
     font-family:'EB Garamond',seif;
-    font-size:110%;
+    font-size:115%;
     font-style:italic;
+    color:#222;
 }
 .btn-full:link,
 .btn-full:visited{
